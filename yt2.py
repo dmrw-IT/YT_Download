@@ -54,7 +54,8 @@ def video():
     stream.download(output_path=full_path, filename=title)
     
     print("\nDownload Complete: Restarting the Program...\n")
-    
+
+# Function to handle downloading YT Playlist:
 def playlist():
 
     # Prompt User to provide a YT Playlist link:
